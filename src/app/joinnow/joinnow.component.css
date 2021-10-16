@@ -1,0 +1,19 @@
+.joinnow
+{
+    background-color: #eff6ff;
+    padding: 140px 100px;
+}
+.register
+{
+    background-color: #ffffff;
+    padding: 30px 40px;
+}
+
+@media screen and (max-width:600px)
+{
+
+    .joinnow
+{
+    padding: 140px 30px;
+}
+}

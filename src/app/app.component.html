@@ -1,0 +1,40 @@
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" routerLink=""></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="course">Course</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="joinnow">Joinnow</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="signin">SignIn</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="about">About</a>
+      </li>
+    </ul>
+  </div>
+  <form class="form-inline waves-light" mdbWavesEffect>
+    <div class="md-form my-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+    </div>
+</form>
+</nav>
+
+
+
+<router-outlet></router-outlet>
+
+<!-- footer -->
+<footer class="text-center mt-2">
+  <p>&copy; Soundergrad 2021.</p>
+</footer>
